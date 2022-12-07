@@ -52,6 +52,12 @@ header {
     border-radius: 12rem 12rem 0 0;
 }
 
+.me__pic {
+    width: 100%;
+    height: 95%;
+    border-radius: 50%;
+}
+
 /* ======================= Scroll Down ========================= */
 
 .scroll__down {

@@ -16,23 +16,15 @@ const services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> Lorem ipsum dolor sit amet, consectetur</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> do eiusmod tempor incididunt ut labore</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> aliqua. Ut veniam, quis nostrud exercitation</p>
             </li>
           </ul>
         </article>
@@ -45,23 +37,15 @@ const services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> cillum dolore eu fugiat nulla pariatur</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> Lorem ipsum dolor sit amet, consectetur</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> Tortor condimentum lacinia quis vel</p>
             </li>
           </ul>
         </article>
@@ -74,23 +58,15 @@ const services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p>sed euismod nisi porta</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p>Nullam vehicula ipsum a arcu cursus vitae</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p> blah blah blah blah</p>
+              <p> Amet consectetur adipiscing elit ut</p>
             </li>
           </ul>
         </article>

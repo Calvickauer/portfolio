@@ -2,7 +2,6 @@ import React, {useRef} from 'react'
 import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -10,11 +9,19 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_oyjzxul', 'template_q0izan8', form.current, 'DVHp_ogKWKSJhbLZK');
-
-    e.target.reset()
+    emailjs.sendForm('service_qr4hqor', 'template_q0izan8', form.current, 'DVHp_ogKWKSJhbLZK')
+      .then(
+        (result) => {
+          alert('message sent successfully...');
+          console.log(result.text);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -33,19 +40,20 @@ const Contact = () => {
             <h5>Facebook Messenger</h5>
             <a href='http://m.me/calvickauer'>Send a Message</a>
           </article>
-          {/* <article className='contact__option'>
-            <BsWhatsapp />
-            <h4>WhatsApp</h4>
-            <a href='https://api.whatsapp.com/send?phone='>Send a Message</a>
-          </article> */}
         </div>
-
-        <form href={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your Full Name' required />
-          <input type='email' name='email' placeholder="Your Email" required />
-          <textarea name='message' rows='7' placeholder='your Message Here' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+      
+        <form ref={form} onSubmit={sendEmail} className='contact__form'>
+          <label>Name</label>
+          <input type="text" name="name" placeholder='Your Fullname' />
+          <label>Email</label>
+          <input type="email" name="email" placeholder='Your Email/Emails'/>
+          <label>Message</label>
+          <textarea name="message" placeholder='Your Message here..'/>
+          <input type="submit" value="Send" />
         </form>
+        
+
+        
       </div>
     </section>
   )

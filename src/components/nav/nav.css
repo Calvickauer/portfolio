@@ -1,5 +1,6 @@
 nav {
-    background: rgb(0, 0, 0, 0.3);
+    /* background: rgb(0, 0, 0, 0.3); */
+    background: rgb(0, 0, 0);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -12,22 +13,24 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    border: 1px solid white;
 }
 
 nav a {
-    background: transparent;
+    background: rgb(251, 251, 251);
     padding: 0.9rem;
     border-radius:  50%;
     display: flex;
-    color: var(--color-light);
+    color: black;
     font-size: 1.1rem;
+    border: 1px solid rgb(5, 2, 2);
 }
 
 nav a:hover {
-    background: rgb(0, 0, 0, 0.3);
+    background: rgba(62, 15, 170, 0.735);
 }
 
 nav a.active {
     background: var(--color-primary);
-    color: blue;
+    color: black;
 }
