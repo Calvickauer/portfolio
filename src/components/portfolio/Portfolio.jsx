@@ -3,7 +3,6 @@ import './portfolio.css'
 import IMG1 from '../../assets/Kandy.jpeg'
 import IMG2 from '../../assets/Pet-Adoption.jpeg'
 import IMG3 from '../../assets/Catch-A-Ride-Main.jpeg'
-import IMG4 from '../../assets/Catch-a-ride.jpg'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -18,7 +17,6 @@ const Portfolio = () => {
           <h3>Kandy's Payback</h3>
           <div className="portfolio__item-cta">
           <a href='https://github.com/Calvickauer/PetAdoption_Project2' className='btn' target='_blank'>Github</a>
-          <a href='https://google.com' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -28,7 +26,7 @@ const Portfolio = () => {
           <h3>Pet Adoptions</h3>
           <div className="portfolio__item-cta">
           <a href='https://github.com/Calvickauer/PetAdoption_Project2' className='btn' target='_blank'>Github</a>
-          <a href='https://google.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://local-adoptions.herokuapp.com/' className='btn btn-primary pn' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -37,8 +35,8 @@ const Portfolio = () => {
           </div>
           <h3>Catch A Ride </h3>
           <div className="portfolio__item-cta">
-          <a href='https://github.com/Calvickauer/catch-a-ride-frontend' className='btn' target='_blank'>Github</a>
-          <a href='https://google.com' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://github.com/Calvickauer/catch-a-ride-frontend' className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href='https://catch-a-ride-us.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
