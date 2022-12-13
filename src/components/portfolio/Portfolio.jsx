@@ -37,7 +37,7 @@ const Portfolio = () => {
           </div>
           <h3>Kandy's Payback</h3>
           <div className="portfolio__item-cta">
-          <a href='https://github.com/Calvickauer/PetAdoption_Project2' className='btn' target='_blank'>Github</a>
+          <a href='https://github.com/Calvickauer/Kandy-s-Payback-The-hunt-Mrs-Claus-GA-SEIRFX-621-Project-1-' className='btn' target='_blank'>Github</a>
           <a href='https://calvickauer.github.io/Kandy-s-Payback-The-hunt-Mrs-Claus-GA-SEIRFX-621-Project-1-/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
