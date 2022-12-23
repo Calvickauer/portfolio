@@ -38,8 +38,8 @@ const Portfolio = () => {
           </div>
           <h3>Face 2 Face </h3>
           <div className="portfolio__item-cta">
-          <a href='https://github.com/Calvickauer/catch-a-ride-frontend' className='btn' target='_blank' rel="noreferrer">Github</a>
-          <a href='https://catch-a-ride-us.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://github.com/Calvickauer/face2face' className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href='https://face2face-us.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
