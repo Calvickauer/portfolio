@@ -4,6 +4,7 @@ import IMG1 from '../../assets/Kandy.jpeg'
 import IMG2 from '../../assets/padopt.png'
 import IMG3 from '../../assets/Catch-A-Ride-Main.jpeg'
 import IMG4 from '../../assets/pong.png'
+import IMG5 from '../../assets/f2f.png'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -26,6 +27,16 @@ const Portfolio = () => {
             <img src={IMG3}/>
           </div>
           <h3>Catch A Ride </h3>
+          <div className="portfolio__item-cta">
+          <a href='https://github.com/Calvickauer/catch-a-ride-frontend' className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href='https://catch-a-ride-us.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG5}/>
+          </div>
+          <h3>Face 2 Face </h3>
           <div className="portfolio__item-cta">
           <a href='https://github.com/Calvickauer/catch-a-ride-frontend' className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href='https://catch-a-ride-us.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
