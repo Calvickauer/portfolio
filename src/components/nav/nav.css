@@ -41,6 +41,11 @@ nav a.active {
         padding: 30px;
         font-size: 40px;
     }
+    nav {
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 
@@ -48,5 +53,10 @@ nav a.active {
 @media screen and (max-width: 600px) {
     nav a{
         padding: 10px;
+        font-size: 30px;
+    }
+
+    nav {
+        width: fit-content;
     }
 }
