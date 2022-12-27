@@ -80,6 +80,14 @@ h2 {
     .container.contact__container {
         width: var(--container-width-sm);
     }
+
+    p {
+        height: 300px;
+        overflow:scroll;
+        border: 2px solid var(--color-white);
+        padding: 5px;
+        border-radius: 10px;
+    }
 }
 
 /* ================== Media Query Medium ====================== */

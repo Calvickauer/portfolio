@@ -50,17 +50,10 @@
     font-size: 0.9rem;
 }
 
-/* ================== Media Query small ====================== */
-@media screen and (max-width: 600px) {
-    .service__container {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-}
 
 /* ================== Media Query Medium ====================== */
-@media screen and (max-width: 600px) {
-    .service__container {
+@media screen and (max-width: 1024px) {
+    .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
@@ -68,4 +61,27 @@
     .service {
         height: auto;
     }
+}
+
+
+/* ================== Media Query small ====================== */
+@media screen and (max-width: 600px) {
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    p {
+        border: 1px solid transparent;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    li {
+        margin: 0px;
+        padding: 0px;
+    }
+    
 }

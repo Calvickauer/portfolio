@@ -38,19 +38,6 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
-
-}
-
-/* ================== Media Query small ====================== */
-@media screen and (max-width: 600px) {
-    .experience__container {
-        gap: 1rem;
-    }
-
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
 }
 
 /* ================== Media Query Medium ====================== */
@@ -67,5 +54,22 @@
 
     .experience__content {
         padding: 1rem;
+    }
+}
+/* ================== Media Query small ====================== */
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap: 1rem;
+        width: fit-content;
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding:0px;
+    }
+
+    .experience__container {
+        padding: 0px;
     }
 }
