@@ -34,3 +34,19 @@ nav a.active {
     background: var(--color-primary);
     color: black;
 }
+
+/* ================== Media Query Medium ====================== */
+@media screen and (max-width: 1024px) {
+    nav a{
+        padding: 30px;
+        font-size: 40px;
+    }
+}
+
+
+/* ================== Media Query small ====================== */
+@media screen and (max-width: 600px) {
+    nav a{
+        padding: 10px;
+    }
+}
