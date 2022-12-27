@@ -75,6 +75,15 @@ h2 {
     font-size: 45px;
 }
 
+
+/* ================== Media Query Medium ====================== */
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
 /* ================== Media Query small ====================== */
 @media screen and (max-width: 600px) {
     .container.contact__container {
@@ -87,13 +96,5 @@ h2 {
         border: 2px solid var(--color-white);
         padding: 5px;
         border-radius: 10px;
-    }
-}
-
-/* ================== Media Query Medium ====================== */
-@media screen and (max-width: 1024px) {
-    .container.contact__container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
     }
 }
