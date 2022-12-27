@@ -39,18 +39,16 @@
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+        
     }
-    
-
-    
-    /* ================== Media Query small ====================== */
-    @media screen and (max-width: 600px) {
-        .portfolio__container {
-            grid-template-columns: 1fr;
-            gap: 1rem;
-        }
-        .portfolio__item {
-            grid-template-columns: 1fr;
+/* ================== Media Query small ====================== */
+        @media screen and (max-width: 600px) {
+            .portfolio__container {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            .portfolio__item {
+                grid-template-columns: 1fr;
+            }
         }
     }
-}
