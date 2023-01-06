@@ -40,9 +40,12 @@ nav a.active {
     nav a{
         font-size: 40px;
         padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
     nav {
         background-color: transparent;
+        width: 600px;
     }
 }
 
