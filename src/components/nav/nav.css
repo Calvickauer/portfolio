@@ -39,11 +39,10 @@ nav a.active {
 @media screen and (max-width: 1024px) {
     nav a{
         font-size: 40px;
+        padding: 10px;
     }
     nav {
         background-color: transparent;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 }
 
