@@ -38,10 +38,10 @@ nav a.active {
 /* ================== Media Query Medium ====================== */
 @media screen and (max-width: 1024px) {
     nav a{
-        padding: 30px;
         font-size: 40px;
     }
     nav {
+        background-color: transparent;
         width: fit-content;
         padding-left: 20px;
         padding-right: 20px;
