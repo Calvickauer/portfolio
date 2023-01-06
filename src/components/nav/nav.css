@@ -53,8 +53,8 @@ nav a.active {
 /* ================== Media Query small ====================== */
 @media screen and (max-width: 600px) {
     nav a{
-        padding: 10px;
-        font-size: 30px;
+        padding: 4px;
+        font-size: 28px;
     }
 
     nav {
