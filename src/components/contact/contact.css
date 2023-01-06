@@ -81,10 +81,11 @@ h2 {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 30px;
+        justify-content: space-between;
     }
-    .contact__options {
-        margin-bottom: 20px;
-        margin-top: 20px;
+    .contact__option {
+        margin-bottom: 10px;
+        margin-top: 10px;
         gap: 20px;
     }
 }
