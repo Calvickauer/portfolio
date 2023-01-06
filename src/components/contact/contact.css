@@ -82,6 +82,9 @@ h2 {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    .contact__options {
+        margin-bottom: 20px;
+    }
 }
 
 /* ================== Media Query small ====================== */

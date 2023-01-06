@@ -76,6 +76,9 @@ header {
     header {
         height: 68vh;
     }
+    .btn {
+        margin-right: 10px;
+    }
 }
 /* ============== Media Queries ( Small Devices ) =================== */
 
