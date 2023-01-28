@@ -52,6 +52,14 @@ footer a {
     color: var(--color-bg);
 }
 
+.social__links{
+    margin: 10px;
+}
+
+li{
+    margin-left: 10px;
+}
+
 /* ================== Media Query small ====================== */
 @media screen and (max-width: 600px) {
     .permalinks {
