@@ -53,9 +53,11 @@ header {
 }
 
 .me__pic {
+    margin-top: 20px;
     width: 100%;
     height: 100%;
     border-radius: 60px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 60%, transparent 100%);
 }
 
 /* ======================= Scroll Down ========================= */
