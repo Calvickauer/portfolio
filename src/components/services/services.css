@@ -42,7 +42,7 @@
 }
 
 .service__list-icon {
-    color: var(--color-primary);
+    color: rgb(10, 255, 55);
     margin-top: 2px;
 }
 
