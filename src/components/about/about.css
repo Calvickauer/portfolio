@@ -63,7 +63,10 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
+    padding: 20px;
+    border-radius: 15px;
     color: var(--color-light);
+    background-color: rgba(0, 0, 0, 0.674);
 }
 
 /* ================== Media Query Medium ====================== */
