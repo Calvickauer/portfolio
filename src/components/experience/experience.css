@@ -2,6 +2,8 @@
     display :grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    padding-bottom: 75px;
+    padding-top: 50px;
 }
 
 .experience__container > div {
@@ -46,6 +48,8 @@
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .experience__container > div {
