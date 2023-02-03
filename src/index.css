@@ -82,7 +82,9 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+    border-color: rgb(0, 255, 0);
 }
 
 .btn {

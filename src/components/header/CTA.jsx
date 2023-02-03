@@ -5,8 +5,8 @@ import Resume from '../../assets/Resume/Calvin_Moldenhauer_Resume.pdf'
 const CTA = () => {
   return (
     <div className='cta'>
-        <a href={Resume} download className='btn'> Download CV </a>
-        <a href='#contact' className='btn btn-primary'> Let's Talk </a>
+        <a href={Resume} download className='btn download__CV'> Download CV </a>
+        <a href='#contact' className='btn btn-primary lets__talk'> Let's Talk </a>
     </div>
   )
 }
