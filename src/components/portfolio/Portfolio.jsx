@@ -5,6 +5,8 @@ import IMG2 from '../../assets/padopt.png'
 import IMG3 from '../../assets/Catch-A-Ride-Main.jpeg'
 import IMG4 from '../../assets/pong.png'
 import IMG5 from '../../assets/f2f.png'
+import IMG6 from '../../assets/Thriver2.png'
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -30,6 +32,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
           <a href='https://github.com/Calvickauer/catch-a-ride-frontend' className='btn' target='_blank' rel="noreferrer">Github</a>
           <a href='https://catch-a-ride-us.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6}/>
+          </div>
+          <h3>Thriver </h3>
+          <div className="portfolio__item-cta">
+          <a href='https://github.com/Calvickauer/job_finder_motivator_client' className='btn' target='_blank' rel="noreferrer">Github</a>
+          <a href='https://thriver-jobs.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
