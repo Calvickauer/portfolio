@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    overflow: visible;
 }
 
 .about__me {
@@ -19,6 +20,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    overflow: visible;
 }
 
 .about__me-image {
