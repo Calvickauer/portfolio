@@ -100,7 +100,7 @@
         margin: 1rem 0 1.5rem;
     }
 }
-/* ================== Media Query small ====================== */
+/* ================== Media Query Small ====================== */
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
@@ -112,7 +112,7 @@
         gap: 1rem;
     }
 
-    .bout__content {
+    .about__content {
         text-align: center;
     }
 
@@ -124,5 +124,4 @@
         color: wheat;
         padding: 20px;
     }
-
 }
