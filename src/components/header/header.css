@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
 
-header {
+.header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+    position: relative;
 }
-
 .lets__talk{
     width: fit-content;
     height: fit-content;
@@ -115,7 +115,7 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    top: 4rem; 
     border-radius: 12rem 12rem 0 0;
 }
 
