@@ -1,14 +1,24 @@
-import React from 'react'
-import Resume from '../../assets/Resume/Calvin_Moldenhauer_Resume.pdf'
-// import CV from '../../assets/vc.pdf' # need to make this still
+import React from 'react';
+import Resume from '../../assets/Resume/Resume-Calvin2024.pdf';
 
 const CTA = () => {
+  const viewResume = () => {
+    window.open(Resume, '_blank');
+  };
+
   return (
     <div className='cta'>
-        <a href={Resume} download className='btn download__CV'> Download CV </a>
-        <a href='#contact' className='btn btn-primary lets__talk'> Let's Talk </a>
+      <a href={Resume} download className='download__cta'>
+        Download CV
+      </a>
+      <button className='view__cta' onClick={viewResume}>
+        View Resume
+      </button>
+      <a href='#contact' className='lets__talk'>
+        Let's Talk
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+export default CTA;
