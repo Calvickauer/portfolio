@@ -11,7 +11,7 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #ac0000a5;
+    --color-bg-variant: #000000a5;
     --color-primary: #ffffff;
     --color-primary-variant: rgb(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -38,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/backgroundddd.jpeg);
+    background-image: url(../src/assets/backgrounddd.jpeg);
     background-attachment: fixed;
     background-size: cover;
 }

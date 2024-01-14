@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -65,8 +73,12 @@
     margin: 2rem 0 2.6rem;
     padding: 20px;
     border-radius: 15px;
-    color: var(--color-light);
+    color: white;
     background-color: rgba(0, 0, 0, 0.674);
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
 }
 
 /* ================== Media Query Medium ====================== */

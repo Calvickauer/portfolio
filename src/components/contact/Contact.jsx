@@ -49,7 +49,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder='Your Email/Emails'/>
           <label>Message</label>
           <textarea name="message" placeholder='Your Message here..'/>
-          <input type="submit" value="Send" />
+          <input className='sendbtn' type="submit" value="Send" />
         </form>
         
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/IMG_8427.png'
+import ME from '../../assets/aboutmepic.PNG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -38,10 +38,16 @@ const about = () => {
             </article>
           </div>
           <p>
-          Hello, I am a Software engineer with a strong passion for technology and each role that contributes to the development of technology. My previous career as a Porsche race technician had me troubleshooting many different electrical or programming issues our team would encounter during the homologation process; I thoroughly enjoyed the debugging stages and results our team would experience. 
-It gave me an opportunity to let my research and testing skills shine as well as lead my team to become more understanding of our system and capable of diagnosing errors it may encounter at that time. In my next role, I'm looking to join a company/team with a strong collaborative environment and a passion for our mission. I want to work with a team where each member has a desire for knowledge and is open to constructive criticism.
-My passion for Technology was sparked when I got my first laptop and the first gen iphone. Through these tools, I was able to develop a deep skill set with torrents and customizing iphones by altering the interface as well as the appearance of the interface, resulting in me monetizing my expertise from fellow peers/classmates. Iphones also gave me an appreciation for digital photography from which I had an urge to learn as much about photoshop, and video editing softwares as I could.
- I then discovered Arduinos and Raspberry Pi from which I became really passionate about learning how computers worked and how to develop my own applications and or bring my invention ideas to a prototype stage.
+            Hello, I'm a tech enthusiast with a background
+            in software engineering and experience as a Porsche
+              race technician. Skilled in debugging and troubleshooting,
+              I'm eager to join a collaborative team that shares a passion
+                for technology and continuous learning. My journey began with
+                laptops and the first-gen iPhone, leading me to monetize my expertise
+                  in customizing interfaces. This sparked an interest in digital photography,
+                  Photoshop, and video editing. My love for technology deepened with Arduinos and
+                    Raspberry Pi, driving me to explore computer functionality and prototype development.
+                    Passionate about AI, quantum mechanics, and various phenomena, I'm ready for the next exciting role in my career.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk!</a>

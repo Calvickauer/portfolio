@@ -12,17 +12,25 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background: rgb(22, 143, 155);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+    border-top: 8px solid white;
+    border-right: 8px solid white;
 }
 
 .contact__option:hover {
-    background: rgba(0, 216, 18, 0.229);
-    border-color: var(--color-primary-variant);
+    background: rgba(0, 216, 18, 0.662);
+    border-bottom: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 10px solid rgb(0, 0, 0);
+    border-right: 10px solid rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .contact__option-icon {
@@ -39,18 +47,38 @@
 .contact__form {
     border-radius: 10px;
     padding: 10px;
-    background: transparent;
+    background: rgb(10, 145, 147);
     transition: var(--transition);
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 10px solid green;
+    border-right: 10px solid green;
+    border-radius: 30px;
+}
+
+.contact__form:hover .sendbtn{
+ color: black;
+}
+
+.sendbtn:hover{
+    cursor: pointer;
 }
 
 ::placeholder {
-    color: white;
+    color: darkblue;
 }
 
 .contact__form:hover {
-    background: rgba(147, 28, 28, 0.545);
-    border: 1px solid var(--color-white);
-
+    background: rgb(255, 255, 255, 0.75);
+    border-left: 10px solid green;
+    border-bottom: 10px solid green;
+    border-top: 8px solid rgb(0, 0, 0);
+    border-right: 8px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    color: black;
+}
+.contact__form:hover ::placeholder{
+    color: black;
 }
 
 /* =================== FORM ===================== */
@@ -65,14 +93,15 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid black;
     background: transparent;
     resize: none;
     color: var(--color-white);
 }
 
+
 input:hover, textarea:hover {
-    border: 1px solid var(--color-white);
+    border: 1px solid green;
 }
 
 h2 {
