@@ -7,7 +7,9 @@
 .service {
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
+    border-left: 1px solid var(--color-primary);
+    border-right: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
     margin-bottom: 100px;
@@ -15,9 +17,14 @@
 }
 
 .service:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: rgba(0, 0, 255, 0.36);
+    border-color: rgb(255, 255, 255);
     cursor: default;
+    border-width: 4px;
+}
+
+.service:hover .service__head {
+   border-top: 4px solid blue;
 }
 
 .service__head {

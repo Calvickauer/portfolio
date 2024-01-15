@@ -14,9 +14,9 @@
     transition: var(--transition);
 }
 
-.experience__container >div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+.experience__container > div:hover {
+    background: rgba(0, 0, 255, 0.36);
+    border: 1px solid white;
     cursor: default;
 }
 
