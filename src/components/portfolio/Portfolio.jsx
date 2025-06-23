@@ -6,7 +6,8 @@ import IMG3 from '../../assets/Catch-A-Ride-Main.jpeg'
 import IMG4 from '../../assets/pong.png'
 import IMG5 from '../../assets/f2f.png'
 import IMG6 from '../../assets/Thriver2.png'
-import IMG7 from '../../assets/mememe.png'
+import IMG7 from '../../assets/Mompi.jpeg'
+import MOMPI_VIDEO from '../../assets/Mompi.mov'
 
 const projects = [
   {
@@ -56,9 +57,10 @@ const projects = [
   {
     id: 7,
     image: IMG7,
+    video: MOMPI_VIDEO,
     title: 'Mompi Assistant',
     github: 'https://github.com/Calvickauer/mompi-assistant',
-    demo: 'https://mompi-assistant-demo.com'
+    demo: null
   }
 ]
 
@@ -69,10 +71,14 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {projects.map(({ id, image, title, github, demo }) => (
+        {projects.map(({ id, image, video, title, github, demo }) => (
           <article className="portfolio__item" key={id}>
             <div className="portfolio__item-image">
-              <img src={image} alt={title} loading="lazy" />
+              {video ? (
+                <video src={video} controls width="100%"/>
+              ) : (
+                <img src={image} alt={title} loading="lazy" />
+              )}
             </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
