@@ -11,8 +11,8 @@
     width: fit-content;
     height: fit-content;
     min-height: 40px;
-    background-color: green;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
     font-weight: bolder;
     padding-left: 5px;
     padding-right: 5px;
@@ -23,8 +23,8 @@
     width: fit-content;
     height: fit-content;
     min-height: 40px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--color-white);
+    color: var(--color-bg);
     font-weight: bolder;
     padding-left: 5px;
     padding-right: 5px;
@@ -34,18 +34,18 @@
 }
 
 .view__cta:hover{
-    color: rgb(150, 150, 150);
+    color: var(--color-light);
     text-decoration: none;
     font-weight: bolder;
-    border: 2px solid blue;
+    border: 2px solid var(--color-primary);
 }
 
 .download__cta{
     width: fit-content;
     height: fit-content;
     min-height: 40px;
-    background-color: rgb(0, 68, 255);
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-white);
     font-weight: bolder;
     padding-left: 5px;
     padding-right: 5px;
@@ -65,15 +65,15 @@
 }
 
 .download__cta:hover {
-    background-color: rgb(0, 76, 255);
-    color: rgb(164, 164, 164);
+    background-color: var(--color-primary-variant);
+    color: var(--color-light);
     text-decoration: none;
-    border: 2px solid green;
+    border: 2px solid var(--color-primary);
 }
 
 .lets__talk:hover {
-    border: 2px solid rgb(255, 255, 255);
-    color: rgb(161, 161, 161);
+    border: 2px solid var(--color-white);
+    color: var(--color-light);
     text-decoration: none;
 }
 

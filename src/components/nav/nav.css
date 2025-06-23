@@ -13,7 +13,7 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
-    border: 2px solid white;
+    border: 2px solid var(--color-white);
 }
 
 @keyframes Navigation {
@@ -50,17 +50,17 @@ nav {
 }
 
 nav a {
-    background: rgb(251, 251, 251);
+    background: var(--color-white);
     padding: 0.9rem;
     border-radius:  50%;
     display: flex;
     color: black;
     font-size: 1.1rem;
-    border: 1px solid rgb(5, 2, 2);
+    border: 1px solid var(--color-bg-variant);
 }
 
 nav a:hover {
-    background: rgba(62, 15, 170, 0.735);
+    background: var(--color-primary-variant);
 }
 
 nav a.active {
