@@ -19,6 +19,7 @@
 
     --transition: all 400ms ease;
 
+    --container-max-width: 1200px;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -47,6 +48,8 @@ body {
 
 .container {
     width: var(--container-width-lg);
+    max-width: var(--container-max-width);
+    padding: 0 1rem;
     margin: 0 auto;
 }
 
@@ -55,7 +58,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 5vw, 2.5rem);
 }
 
 section {
@@ -96,7 +99,7 @@ a:hover {
     transition: var(--transition);
 }
 
-.bth:hover {
+.btn:hover {
     background-color: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
@@ -118,6 +121,7 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
+        padding: 0 1rem;
     }
 
     section {
@@ -130,6 +134,7 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+        padding: 0 0.5rem;
     }
 
     section  > h2{

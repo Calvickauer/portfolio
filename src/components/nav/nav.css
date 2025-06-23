@@ -43,6 +43,12 @@ nav {
     animation-iteration-count: infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    nav {
+        animation: none;
+    }
+}
+
 nav a {
     background: rgb(251, 251, 251);
     padding: 0.9rem;
