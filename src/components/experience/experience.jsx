@@ -98,6 +98,46 @@ const experience = () => {
           </div>
 
         </div>
+        <div className="experience__ai">
+          <h3>AI Tools &amp; Software</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>GPT Pro</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Codex</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Operator</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>OpenAI API</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>LangChain</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   )

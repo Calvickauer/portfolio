@@ -85,12 +85,12 @@ const services = () => {
           </ul>
         </article>
                 {/* End of WebDev */}
-        <article className='service'>
-          <div className="service__head">
-            <h3>Content Creation</h3>
-          </div>
+          <article className='service'>
+            <div className="service__head">
+              <h3>Content Creation</h3>
+            </div>
 
-          <ul className='service__list'>
+            <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Video Content</p>
@@ -118,6 +118,38 @@ const services = () => {
             <li>
               <BiCheck className='service__list-icon'/>
               <p> White papers</p>
+            </li>
+          </ul>
+        </article>
+        <article className='service'>
+          <div className="service__head">
+            <h3>AI Solutions</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>GPT Pro integration</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Codex automation</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Operator workflows</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Custom chatbot development</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Data analysis with AI</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Model fine tuning</p>
             </li>
           </ul>
         </article>
