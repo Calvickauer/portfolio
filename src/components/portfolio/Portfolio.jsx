@@ -8,6 +8,7 @@ import IMG5 from '../../assets/f2f.png'
 import IMG6 from '../../assets/Thriver2.png'
 import IMG7 from '../../assets/Mompi.jpeg'
 import MOMPI_VIDEO from '../../assets/Mompi.mov'
+import IMG8_BASE64 from './svmaestheticsBase64'
 
 const projects = [
   {
@@ -61,6 +62,13 @@ const projects = [
     title: 'Mompi Assistant',
     github: 'https://github.com/Calvickauer/mompi-assistant',
     demo: null
+  },
+  {
+    id: 8,
+    image: `data:image/png;base64,${IMG8_BASE64}`,
+    title: 'SVM Aesthetics',
+    github: null,
+    demo: 'https://svmedaesthetics.com/'
   }
 ]
 
